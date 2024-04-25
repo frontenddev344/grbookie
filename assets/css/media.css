@@ -1,0 +1,397 @@
+@media(max-width:1200px){
+    .site-header .nav-links ul li a {
+        font-size: 14px;
+    }
+    .site-logo img {
+        max-width: 70px;
+    }
+    .banner-txt h2 {
+        font-size: 40px;
+    }
+    .site-banner {
+        height: 500px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .welcome-txt h3 {
+        margin-bottom: 15px;
+    }
+    .welcome-txt p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .ptb-70 {
+        padding: 50px 0;
+    }
+    .casino-box-txt h4 {
+        font-size: 14px;
+    }
+    .casino-box {
+        height: 300px;
+    }
+    .slick-prev:before, .slick-next:before {
+        font-size: 25px;
+    }
+    .footer-logo img {
+        width: 90px;
+    }
+    .footer-links ul li a {
+        font-size: 13px;
+    }
+    .footer-links ul {
+        gap: 15px;
+    }
+    .sub-banner-txt h3 {
+        font-size: 35px;
+    }
+    .sub-banner {
+        height: 400px;
+    }
+    .welcome-txt p {
+        font-size: 15px;
+    }
+    .casino-txt h4 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .casino-txt p {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .explore-btn a {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .casino-wrap {
+        height: 550px;
+    }
+    .destination-txt h4 {
+        font-size: 22px;
+    }
+    p, .privacy-wrap ul li {
+        font-size: 15px;
+    }
+    .destination-wrap {
+        height: 350px;
+    }
+    .traveling-txt h4 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .traveling-txt p {
+        min-height: 210px;
+    }
+    .traveling-wrap img {
+        height: 300px;
+    }
+    .contact-txt h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .privacy-wrap h4 {
+        font-size: 20px;
+    }
+}
+@media(max-width:992px){
+    .site-header .nav-links ul {
+        gap: 20px;
+        align-items: start;
+        flex-direction: column;
+    }
+    .nav-links {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: #fff;
+      height: 100vh;
+      width: 300px;
+      z-index: 999;
+      padding: 50px 30px;
+      transition: all 0.3s linear;
+      transform: translateX(-100%);
+}
+.menuToggle   .nav-links{
+    transform: translateX(0%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+    .close, .toggle {
+        display: block;
+    }
+    .toggle {
+        font-size: 25px;
+    }
+    .close {
+        font-size: 25px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+}
+
+@media(max-width:850px){
+    .banner-txt h2 {
+        font-size: 35px;
+    }
+    .banner-txt {
+        width: 80%;
+    }
+    .site-banner {
+        height: 450px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .welcome-txt h3 {
+        margin-bottom: 10px;
+    }
+    .welcome-txt p {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+    .ptb-50 {
+        padding: 30px 0;
+    }
+    .footer-links ul li {
+        line-height: 1;
+    }
+    .sub-banner-txt h3 {
+        font-size: 30px;
+    }
+    .sub-banner {
+        height: 350px;
+    }
+    .casino-txt h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .casino-txt p {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .explore-btn a {
+        padding: 10px 25px;
+    }
+    .casino-wrap {
+        height: 530px;
+    }
+    .destination-txt h4 {
+        font-size: 20px;
+    }
+    p, .privacy-wrap ul li {
+        font-size: 14px;
+    }
+    .destination-wrap {
+        height: 320px;
+        padding: 10px;
+    }
+    .destination-txt p {
+        min-height: auto;
+    }
+    .traveling-wrap img {
+        height: 250px;
+    }
+    .traveling-txt h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        min-height: 50px;
+    }
+    .traveling-txt p {
+        min-height: 260px;
+    }
+    .contact-txt h4 {
+        font-size: 20px;
+    }
+    .contact-txt {
+        margin-bottom: 15px;
+    }
+    .privacy-wrap h4 {
+        font-size: 18px;
+    }
+}
+@media(max-width:767px){
+    .site-logo img {
+        max-width: 65px;
+    }
+    .toggle, .close {
+        font-size: 22px;
+    }
+    .site-header .nav-links ul li a {
+        font-size: 13px;
+    }
+    .site-header .nav-links ul {
+        gap: 15px;
+    }
+    .nav-links {
+        padding: 40px 20px;
+    }
+    .banner-txt h2 {
+        font-size: 30px;
+    }
+    .site-banner {
+        height: 400px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .welcome-txt p, .casino-box-txt h4 {
+        font-size: 13px;
+    }
+    .site-heading h3 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .casino-box {
+        height: 220px;
+    }
+    .footer-wrap {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-left {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-right {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-links ul {
+        gap: 10px;
+        justify-content: center;
+        margin: 15px 0;
+    }
+    .copy-right p {
+        font-size: 11px;
+        text-align: center;
+    }
+    .sub-banner {
+        height: 300px;
+    }
+    .sub-banner-txt h3 {
+        font-size: 25px;
+    }
+    .casino-wrap {
+        height: auto;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+    .casino-left  {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .casino-right {
+        width: 100%;
+    }
+    .casino-txt h4 {
+        font-size: 18px;
+    }
+    .casino-txt p {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+    .explore-btn a {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+   
+    .casino-wrap:nth-child(2), .casino-wrap:nth-child(4), .casino-wrap:nth-child(6), .casino-wrap:nth-child(8){
+        flex-direction: column-reverse;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .destination-txt h4 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .destination-wrap {
+        height: 280px;
+        padding: 10px;
+    }
+    .traveling-txt h4 {
+        font-size: 18px;
+        min-height: auto;
+    }
+    .traveling-txt p {
+        min-height: auto;
+    }
+    .contact-img {
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .contact-txt h4 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .privacy-wrap h4 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+ .privacy-wrap ul li {
+        font-size: 13px;
+    }
+}
+@media(max-width:575px){
+    .site-logo img {
+        max-width: 55px;
+    }
+    .site-header .nav-links ul li a {
+        font-size: 12px;
+    }
+    .site-header .nav-links ul {
+        gap: 10px;
+    }
+    .site-banner {
+        height: 350px;
+    }
+    .banner-txt h2 {
+        font-size: 25px;
+    }
+    .banner-txt, .footer-right, .sub-banner-txt {
+        width: 95%;
+    }
+    .casino-box-txt h4 {
+        min-height: auto;
+    }
+    .footer-logo img {
+        width: 70px;
+    }
+    .footer-logo {
+        margin-bottom: 10px;
+    }
+    .sub-banner-txt h3 {
+        font-size: 22px;
+    }
+    .casino-left {
+        height: 250px;
+        margin-bottom: 15px;
+    }
+    .footer-links ul {
+        gap: 8px;
+    }
+    .traveling-txt {
+        padding: 15px;
+    }
+    .traveling-wrap img {
+        height: 200px;
+    }
+    .traveling-txt p {
+        font-size: 12px;
+    }
+    .contact-img {
+        height: 250px;
+    }
+    .nav-links {
+        width: 100%;
+    }
+}

@@ -10,8 +10,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
-    <title>HOME</title>
-
+    <title>Travel to a Casino Hotels to South America</title>
+<style>
+      /* cookies css star here */
+ #cookies-popup {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background-color:#fff;
+     color: #000;
+     padding: 20px 20px;
+     text-align: center;
+     box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px;
+    /* display: none;*/
+}
+ #cookies-popup p {
+     margin: 0;
+     color: var(--black);
+}
+ #cookies-popup button {
+     background-color: #0c264c;
+     border: 1px solid #0c264c;
+     color: #fff;
+     padding: 10px 20px;
+     cursor: pointer;
+     margin-top: 10px;
+     border-radius: 10px;
+}
+ #accept-cookies:hover {
+     background-color: transparent;
+     color: #0c264c;
+}
+/* cookies css end here */
+</style>
 </head>
 <body>
     <!-- header section start here -->
@@ -35,10 +67,10 @@
                        <a href="casino.html">Casino Hotels</a>
                     </li>
                     <li>
-                       <a href="entertainments.html">Destination</a>
+                       <a href="destination.html">Destination</a>
                     </li>
                     <li>
-                       <a href="restaurants.html">Tips to Travel</a>
+                       <a href="tips-&-traveling.html">Tips to Travel</a>
                     </li>
                  </ul>
               </div>
@@ -193,57 +225,67 @@
            
         </div>
      </section>
-
-
      <!-- top casino section end here -->
 
 
       
+    <!-- footer section start here -->
+    <section class="site-footer ptb-50">
+            <div class="container">
+                <div class="footer-wrap">
+                    <div class="footer-left">
+                        <div class="footer-logo">
+                            <img src="assets/images/gr-bookie-logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <div class="footer-links">
+                            <ul>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="casino.html">Casino Hotels</a>
+                                </li>
+                                <li>
+                                    <a href="destination.html">Destination</a>
+                                </li>
+                                <li>
+                                    <a href="tips-&-traveling.html">Tips to Travel</a>
+                                </li>
+                                <li>
+                                    <a href="contact-us.html">Contact us</a>
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.html">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="terms-conditions.html">Terms and Conditions</a>
+                                </li>
 
-<section class="site-footer ptb-50">
-    <div class="container">
-        <div class="footer-wrap">
-            <div class="footer-left">
-                <div class="footer-logo">
-                    <img src="assets/images/gr-bookie-logo.png" alt="">
+                            </ul>
+                        </div>
+                        <div class="copy-right">
+                            <p>
+                                © Copyright 2024  <a href="index.html">grbookie.com</a> All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="footer-right">
-                <div class="footer-links">
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="casino.html">Casino Hotels</a>
-                        </li>
-                        <li>
-                            <a href="entertainments.html">Destination</a>
-                        </li>
-                        <li>
-                            <a href="restaurants.html">Tips to Travel</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact us</a>
-                        </li>
-                        <li>
-                            <a href="privacy-policy.html">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="terms-conditions.html">Terms and Conditions</a>
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="copy-right">
-                    <p>
-                        © Copyright 2024  <a href="index.html">finnishveto.com</a> All Rights Reserved.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+    <!-- footer section end here -->
+       <!-- cookies section start here -->
+   <div id="cookies-popup">
+    <p>Χρησιμοποιούμε cookies για να βελτιώσουμε την εμπειρία περιήγησής σας. Αυτά τα κείμενα των
+        αρχείων Petits αποθηκεύονται στο σύστημά σας. Αποδέχεστε τη χρήση cookies εάν συνεχίσετε να
+        χρησιμοποιείτε τον ιστότοπό μας. Μπορείτε να αλλάξετε τις επιλογές σας σε υλικό cookie στις
+        παραμέτρους του πλοηγού σας. Κάντε κλικ εδώ για να συμβουλευτείτε την πολιτική απορρήτου μας
+        για περισσότερες πληροφορίες.
+    </p>
+    <button id="accept-cookies">αποδέχομαι</button>
+ </div>
+ <!-- cookies section end here -->
 
 
      <script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -273,7 +315,7 @@ $('.casino-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true
+        dots: false
       }
     },
     {
@@ -295,6 +337,19 @@ $('.casino-slider').slick({
     // instead of a settings object
   ]
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var acceptCookiesBtn = document.getElementById("accept-cookies");
+    var cookiesPopup = document.getElementById("cookies-popup");
+  
+    acceptCookiesBtn.addEventListener("click", function() {
+        cookiesPopup.style.display = "none";
+        // You can add code here to set a cookie to remember the user's choice
+    });
+  });
+
 
      </script>
 

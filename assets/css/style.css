@@ -2,7 +2,7 @@
 :root{
     --blue:#0c264c;
     --black:#000;
-    --bg:#f7f7f7;
+    --bg:#fffcfc;
     --white:#fff;
 }
 *{
@@ -32,7 +32,9 @@ img{
 } */
 
 .container{
-    max-width:1300px
+    max-width:1300px;
+    padding: 0 20px;
+
 }
 .ptb-70{
     padding:70px 0
@@ -48,8 +50,12 @@ h3{
     font-weight: 600;
     color: var(--blue);
 }
+p{
+    font-size: 16px;
+}
 /* header css start here */
 .site-header {
+    background-color:var(--white);
     padding: 10px 0;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -76,6 +82,7 @@ h3{
     font-weight: 700;
     letter-spacing: 0.1em;
     position: relative;
+    font-size: 16px;
 }
 .site-header .nav-links ul li a::before{
     content: '';
@@ -93,6 +100,12 @@ h3{
 width: 100%;
 transition: all 0.3s linear;
 
+}
+.fixed-header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
 }
 /* header css end here */
 /* banner section css start here */
@@ -202,6 +215,221 @@ section.top-casino{
     right: 40px;
 }
 /* top casino css end here */
+
+/* casino page css start here */
+.sub-banner {
+    background-image: url(../images/casino-bannerr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.destination-banner{
+    background-image: url(../images/destination-banner.jpg);
+}
+.traveling-banner{
+    background-image: url(../images/travling-banner.jpg);
+}
+.contact-banner{
+    background-image: url(../images/contact-bbanner.jpg);
+}
+.privacy-banner{
+    background-image: url(../images/privacy-banner.jpg);
+}
+.sub-banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--black);
+    opacity: 0.5;
+}
+.sub-banner-wrap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sub-banner-txt {
+    width: 50%;
+    margin: 0 auto;
+}
+.sub-banner-txt h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--white);
+    text-align: center;
+}
+.casino-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    height: 600px;
+}
+.casino-left{
+    width: 43%;
+    height: 100%;
+}
+.casino-right{
+    width: 55%;
+}
+
+.casino-txt h4 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--blue);
+}
+.casino-txt p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--black);
+}
+.explore-btn a{
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 1px solid #0c264c;
+    background-color: var(--blue);
+    color: var(--white);
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 30px;
+    transition: all 0.5s linear;
+}
+.explore-btn a:hover{
+    background-color: transparent;
+    color: var(--blue);
+}
+.casino-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* casino page css end here */
+/* destination page css start here */
+.destination-wrap {
+    background-image: url(../images/destination01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.destination-wrap::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: var(--black);
+opacity: 0.4;
+}
+.destination-txt{
+    position: relative;
+}
+.destination-txt h4 {
+    font-size: 25px;
+    color: var(--white);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.destination-txt p{
+color: var(--bg);
+margin-bottom: 0;
+min-height: 100px;
+}
+
+
+/* destination page css end here */
+/* traveling page css start here */
+.traveling-wrap {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.traveling-wrap img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.traveling-txt {
+    padding: 20px;
+}
+.traveling-txt h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--blue);
+}
+.traveling-txt p{
+    margin-bottom: 0;
+    min-height: 180px;
+}
+
+/* traveling page css end here */
+/* contact us page css start here */
+.contact-txt {
+    margin-bottom: 25px;
+}
+.contact-txt h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: var(--blue);
+    font-weight: 600;
+
+}
+.contact-txt  p{
+    margin-bottom: 5px;
+}
+.contact-txt  p a{
+    font-weight: 600;
+    color: var(--black);
+}
+.contact-img, .contact-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* contact us page css end here */
+/* privacy page css start here */
+.privacy-wrap h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: var(--blue);
+    font-weight: 600;
+}
+.privacy-wrap p{
+    margin-bottom: 5px;
+}
+.privacy-wrap p a{
+    font-weight: 600;
+    color: var(--black);
+}
+.privacy-wrap{
+    margin-bottom: 20px;
+}
+.privacy-wrap ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+.privacy-wrap ul li{
+    font-size: 16px;
+}
+
+/* privacy page css end here */
 
 /* footer section css start here */
 section.site-footer{
